@@ -22,7 +22,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             -   name: Checkout repository
-                uses: actions/checkout@v2
+                uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748
             -   name: Cache files
                 uses: actions/cache@v2
                 with:
